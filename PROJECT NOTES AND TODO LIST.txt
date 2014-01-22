@@ -1,0 +1,16 @@
+I have created some API for use in this core plugin, and for other Avalanche plugins. Most of this API is related
+to accessing the folder and data file. To use this API, use the AvalancheAPI class, then you can easily access the
+data file as a Bukkit configuration, plugin sections in the data file, and you can save the data there. Use the data
+file for any information that needs to be there after the plugin disables, that isn't just options. For each plugin,
+please create API for accessing its config, and also create a file with a unique name that uses Bukkit's
+configuration API.
+
+TO-DO LIST:
+- Make the chat plugin work as an Avalanche plugin (I'll do that.)
+- Create permissions plugin
+- Create chunk claim plugin
+- Create anti hack plugin
+- Create any other plugin, preferably something Essentials doesn't have. =P
+
+PS: Don't make anything that gives us special powers in the plugin. It would really suck to have such an awesome
+plugin, then ruin our reputations and have it removed. 
