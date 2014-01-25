@@ -1,0 +1,16 @@
+name: Avalanche
+main: com.bitbucket.avalancheplugin.Main
+version: 1.0
+commands:
+    purge:
+        description: Strikes all of the specified entity with lightning
+        usage: /<command> <entity>
+    globalmsg:
+        description: Broadcasts a message, replacing %name% with the viewer's name
+        usage: /<command> <message>
+    piggyback:
+        description: Spawn and ride an entity
+        usage: /<command> <entity>
+    superkill:
+        description: Kill a player in a brutal explosion
+        usage: /<command> <player>
