@@ -1,0 +1,7 @@
+name: AvalanchePermissions
+main: com.bitbucket.avalancheperms.Main
+version: 1.0
+commands:
+    aperms:
+        description: Avalanche Permissions manager
+        usage: /<command> [subcommands...]
